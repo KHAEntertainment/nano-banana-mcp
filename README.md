@@ -1,141 +1,48 @@
 # 🍌 Nano Banana MCP
 
-> **Unleash the power of Google Gemini 2.5 Flash image generation in your AI workflows!**
+> **Transform text into stunning images using Google's Gemini 2.5 Flash in Claude Desktop!**
 
-Transform text into stunning visuals, edit images with natural language, and compose multiple images seamlessly using Google's cutting-edge "Nano Banana" model - all through the Model Context Protocol (MCP).
+Simply tell Claude what you want to create and watch your ideas come to life through Google's cutting-edge "Nano Banana" image generation model.
 
 ## ✨ What is Nano Banana?
 
-Nano Banana is Google's codename for **Gemini 2.5 Flash with image generation capabilities**. This revolutionary model can:
+Nano Banana is Google's codename for **Gemini 2.5 Flash with image generation capabilities**. With this MCP server, you can:
 
-- 🎨 **Generate images from text** with incredible detail and accuracy
-- ✏️ **Edit existing images** using natural language instructions
-- 🔄 **Compose multiple images** into cohesive masterpieces
-- 🎯 **Render high-fidelity text** directly in images
-- 🔧 **Iteratively refine** images through multiple improvement cycles
+- 🎨 **Create images from text** - "Generate a sunset over mountains"
+- ✏️ **Edit existing images** - "Add a rainbow to this landscape photo"
+- 🔄 **Combine multiple images** - "Create a collage from these three photos"
+- 🎯 **Make images with text** - "Design a logo that says 'Coffee Shop'"
+- 🔧 **Improve images** - "Make this photo more professional looking"
 
-## 🚀 Features
+## 📸 What You Can Create
 
-### Core Capabilities
-- **Text-to-Image Generation** - Create stunning visuals from descriptive prompts
-- **Image Editing** - Modify existing images with conversational commands
-- **Multi-Image Composition** - Blend up to 3 images with intelligent composition
-- **Iterative Refinement** - Progressively improve images through multiple passes
-- **Text Rendering** - Generate images with crisp, readable text elements
+### 🌅 Beautiful Landscapes
+> *"Create a breathtaking mountain landscape at golden hour with misty valleys"*
 
-### Power User Features
-- **Pixel-Perfect Sizing** - Specify exact dimensions (width × height)
-- **Custom Output Paths** - Save images wherever you need them
-- **MCP Protocol** - Seamless integration with Claude Desktop and other MCP clients
-- **Error Handling** - Robust error reporting and recovery
-- **TypeScript Support** - Full type safety and IntelliSense
+### 🏢 Architectural Designs  
+> *"Show me a modern glass office building with sleek architecture"*
 
-## 📸 Sample Gallery
+### 🎯 Professional Logos
+> *"Design a tech company logo that says 'NANO BANANA' in yellow on dark blue"*
 
-Here's what nano-banana-mcp can create for you:
+### 🎪 Event Graphics
+> *"Make a conference banner for 'AI Innovation Summit 2024'"*
 
-### 🌅 Landscape Photography
-**Prompt**: *"A breathtaking mountain landscape at golden hour, with misty valleys, snow-capped peaks, and dramatic clouds painted in warm orange and pink hues. Photorealistic, high detail, professional landscape photography style."*
-- **Size**: 1024×768px
-- **Style**: Photorealistic landscape photography
-- [View prompt details →](samples/sample-prompts.md#-landscape-generation)
+### 🚀 Digital Art
+> *"Create a futuristic cyberpunk cityscape with neon lights"*
 
-### 🏢 Architectural Visualization
-**Prompt**: *"Modern glass office building with sleek architecture, reflective surfaces, surrounded by urban landscape. Architectural visualization style, clean lines, professional rendering, daylight with dramatic shadows."*
-- **Size**: 1200×900px
-- **Style**: Professional architectural rendering
-- [View prompt details →](samples/sample-prompts.md#-architectural-visualization)
+### 📱 Product Images
+> *"Show a sleek smartphone on a clean white background"*
 
-### 🎯 Logo Design & Branding
-**Text**: `NANO BANANA`
-**Style**: *"Modern tech company logo with sleek typography, gradient effects, and futuristic design elements"*
-- **Size**: 800×400px
-- **Colors**: Dark blue background (#0F172A) with golden yellow text (#F59E0B)
-- [View prompt details →](samples/sample-prompts.md#-logo-design-with-text)
-
-### 🎪 Event Banners
-**Text**: 
-```
-AI INNOVATION SUMMIT 2024
-Join the Future of Technology
-```
-**Style**: *"Professional conference banner with modern gradient background, clean typography, and tech-inspired design elements"*
-- **Size**: 1920×1080px (Full HD)
-- **Perfect for presentations and events**
-- [View prompt details →](samples/sample-prompts.md#-event-banner)
-
-### 🚀 Digital Art & Concept Design
-**Prompt**: *"Futuristic cyberpunk cityscape at night with neon lights, flying cars, and towering skyscrapers. Digital art style, vibrant colors, atmospheric lighting, concept art quality."*
-- **Size**: 1600×900px
-- **Style**: Digital concept art
-- [View prompt details →](samples/sample-prompts.md#-concept-art)
-
-### 📱 Product Photography
-**Prompt**: *"Clean product photography of a sleek smartphone on a white background, professional lighting, minimalist composition, commercial photography style, high resolution."*
-- **Size**: 800×1000px
-- **Style**: Commercial product photography
-- [View prompt details →](samples/sample-prompts.md#-product-photography)
-
-### 🎨 Generate Your Own Samples
-Ready to create your own masterpieces? Use our sample generator:
-
-```bash
-# Set your API key
-export GOOGLE_AI_API_KEY="your-key-here"
-
-# Install nano-banana-mcp
-npm install -g nanobananamcp
-
-# Generate all samples
-node generate-samples.js
-```
-
-🔗 **[View all sample prompts & parameters →](samples/sample-prompts.md)**
-
-## 🛠 Installation
-
-### Quick Start (Recommended)
-```bash
-# Run directly without installation
-npx nanobananamcp
-```
-
-### Global Installation  
-```bash
-# Install globally for permanent access
-npm install -g nanobananamcp
-```
-
-### Development Setup
-```bash
-# Clone and build from source
-git clone https://github.com/KHAEntertainment/nano-banana-mcp.git
-cd nano-banana-mcp
-npm install
-npm run build
-```
-
-## ⚙️ Setup
+## 🚀 Quick Start
 
 ### 1. Get Your Google AI API Key
 1. Visit [Google AI Studio](https://aistudio.google.com/app/apikey)
-2. Create a new API key
-3. Copy your key securely
+2. Create a new API key (it's free!)
+3. Copy your key
 
-### 2. Configure Environment
-```bash
-export GOOGLE_AI_API_KEY="your-api-key-here"
-```
-
-Or create a `.env` file:
-```env
-GOOGLE_AI_API_KEY=your-api-key-here
-```
-
-### 3. MCP Client Configuration
-
-#### Claude Desktop
-Add to your Claude Desktop MCP settings:
+### 2. Add to Claude Desktop
+Open your Claude Desktop settings and add:
 
 ```json
 {
@@ -144,261 +51,121 @@ Add to your Claude Desktop MCP settings:
       "command": "npx",
       "args": ["nanobananamcp"],
       "env": {
-        "GOOGLE_AI_API_KEY": "your-api-key-here"
+        "GOOGLE_AI_API_KEY": "paste-your-api-key-here"
       }
     }
   }
 }
 ```
 
-#### Other MCP Clients
-The server uses stdio transport and follows MCP protocol standards, making it compatible with any MCP client.
+### 3. Start Creating!
+Just talk to Claude naturally:
 
-## 🎯 Usage Guide
+> **You:** "Generate a cozy coffee shop interior with warm lighting"
 
-### 🎨 Generate Images
-Create stunning visuals from text descriptions:
+> **You:** "Create a logo for my bakery called 'Sweet Dreams' in elegant script"
 
-```javascript
-// Basic generation
-{
-  "name": "generate_image",
-  "arguments": {
-    "prompt": "A serene mountain landscape at sunrise with misty valleys",
-    "width": 1024,
-    "height": 768,
-    "outputPath": "./images/mountain-sunrise.png"
-  }
-}
-```
+> **You:** "Make a social media post image about sustainability"
 
-**Perfect for:**
-- Concept art and illustrations
-- Marketing visuals  
-- Social media content
-- Presentation graphics
-- Creative brainstorming
+That's it! No code, no complex setup - just natural conversation.
 
-### ✏️ Edit Existing Images
-Transform images with natural language:
+## 💬 How to Use
 
-```javascript
-// Image editing
-{
-  "name": "edit_image", 
-  "arguments": {
-    "prompt": "Add a rainbow over the mountains and make the sky more dramatic",
-    "imagePath": "./images/mountain-sunrise.png",
-    "outputPath": "./images/mountain-rainbow.png"
-  }
-}
-```
+### 🎨 Creating New Images
+Simply describe what you want:
+- *"Generate a peaceful forest scene in watercolor style"*
+- *"Create a minimalist poster for a music festival"*
+- *"Make a professional headshot photo"*
+- *"Design a vintage-style travel poster for Paris"*
 
-**Great for:**
-- Photo enhancement
-- Style modifications
-- Object addition/removal
-- Color adjustments
-- Creative edits
+**Pro tip:** Be specific about style, colors, and mood for better results!
 
-### 🔄 Compose Multiple Images
-Blend images intelligently:
+### ✏️ Editing Existing Images
+Upload an image and ask Claude to modify it:
+- *"Add more dramatic clouds to this landscape"*
+- *"Make the colors more vibrant in this photo"* 
+- *"Remove the background and make it white"*
+- *"Turn this into a black and white artistic photo"*
 
-```javascript
-// Multi-image composition
-{
-  "name": "compose_images",
-  "arguments": {
-    "prompt": "Combine these images into a cohesive travel brochure layout",
-    "imagePaths": ["./img1.jpg", "./img2.jpg", "./img3.jpg"],
-    "width": 1200,
-    "height": 800
-  }
-}
-```
+### 🔄 Combining Images
+Give Claude multiple images to work with:
+- *"Create a before/after comparison with these two photos"*
+- *"Make a travel brochure layout using these vacation pictures"*
+- *"Combine these product shots into a catalog page"*
 
-**Ideal for:**
-- Collages and mood boards
-- Marketing materials
-- Portfolio layouts
-- Comparison visuals
-- Story boards
+### 🎯 Adding Text to Images
+Ask Claude to create images with text:
+- *"Make a birthday banner that says 'Happy 30th Sarah!'"*
+- *"Create a motivational quote poster with 'Dream Big'"*
+- *"Design a restaurant menu header for 'Mario's Pizza'"*
 
-### 🎯 Render Text in Images
-Create images with high-quality text:
+### 🔧 Improving Images
+Let Claude enhance your images:
+- *"Make this image higher quality and more professional"*
+- *"Improve the lighting and composition"*
+- *"Refine this logo design and make it more polished"*
 
-```javascript
-// Text rendering
-{
-  "name": "render_text_image",
-  "arguments": {
-    "text": "Welcome to Our Annual Conference 2024",
-    "style": "modern corporate design with gradients",
-    "backgroundColor": "#1a365d", 
-    "textColor": "#ffffff",
-    "width": 1920,
-    "height": 1080
-  }
-}
-```
+## 🎯 Perfect For
 
-**Perfect for:**
-- Event banners
-- Social media graphics  
-- Logo design
-- Signage
-- Presentations
+- **Content Creators** - Social media graphics, thumbnails, branding
+- **Small Businesses** - Logos, marketing materials, product photos
+- **Students & Teachers** - Presentations, educational visuals, projects
+- **Developers** - App mockups, website graphics, UI elements
+- **Artists & Designers** - Concept art, inspiration, rapid prototyping
 
-### 🔧 Iterative Refinement
-Progressively improve images:
+## 🛡️ Tips for Best Results
 
-```javascript
-// Multi-pass refinement
-{
-  "name": "refine_image",
-  "arguments": {
-    "prompt": "Enhance lighting, increase detail, and improve overall composition",
-    "imagePath": "./draft.png",
-    "iterations": 3,
-    "outputPath": "./final.png"
-  }
-}
-```
+### 📝 Writing Better Prompts
+- **Be specific**: "Modern minimalist kitchen" vs "kitchen"
+- **Include style**: "photorealistic", "watercolor", "digital art"
+- **Mention lighting**: "soft natural light", "dramatic shadows"
+- **Add mood**: "cozy", "professional", "vibrant", "serene"
 
-**Excellent for:**
-- Polishing artwork
-- Professional photography
-- Design iterations
-- Quality enhancement
-- Creative exploration
+### 📐 Size & Quality
+- Ask for specific sizes: *"Make this 1920x1080 for a presentation"*
+- Request high quality: *"Create a high-resolution version"*
+- Specify use case: *"Optimize for Instagram post"*
 
-## 🔧 Advanced Configuration
+### 🎨 Style Examples
+- **Photography**: "photorealistic", "studio photography", "candid style"
+- **Art**: "oil painting", "watercolor", "digital illustration", "sketch"
+- **Design**: "minimalist", "corporate", "vintage", "modern"
 
-### Custom Sizing
-All tools support precise dimension control:
-```javascript
-{
-  "width": 1024,    // Exact pixel width
-  "height": 768,    // Exact pixel height
-}
-```
+## 🔗 More Resources
 
-### Output Management
-Control where your images are saved:
-```javascript
-{
-  "outputPath": "/path/to/your/image.png"  // Custom save location
-}
-```
-
-### Error Handling
-The server provides detailed error messages for:
-- Invalid API keys
-- Missing files
-- Network issues
-- API limitations
-
-## 🛡️ Best Practices
-
-### Prompting Tips
-- **Be descriptive** - More detail = better results
-- **Specify style** - Include artistic style preferences
-- **Mention lighting** - Describe desired lighting conditions
-- **Include composition** - Specify framing and perspective
-
-### Performance Optimization
-- **Batch operations** - Group related image tasks
-- **Reasonable sizes** - Balance quality with generation time
-- **Error handling** - Always check for API errors
-- **Rate limiting** - Respect Google's API limits
-
-### Security
-- **Protect API keys** - Never commit keys to repositories
-- **Use environment variables** - Keep credentials secure
-- **Monitor usage** - Track API consumption
-- **Validate inputs** - Sanitize file paths and prompts
-
-## 🔗 Integration Examples
-
-### With Claude Desktop
-```markdown
-Can you generate a logo for my coffee shop called "Morning Brew" 
-with a cozy, rustic aesthetic?
-```
-
-### With Custom Scripts
-```javascript
-import { spawn } from 'child_process';
-
-const server = spawn('npx', ['nanobananamcp'], { stdio: 'pipe' });
-// Send MCP protocol messages...
-```
-
-### With Automation Workflows
-Perfect for automated content generation, social media posting, and design workflows.
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**Server won't start**
-- Check your `GOOGLE_AI_API_KEY` environment variable
-- Verify Node.js version (>= 18 required)
-
-**Image generation fails**
-- Validate your API key has image generation permissions
-- Check prompt content for policy violations
-- Verify file paths exist and are writable
-
-**MCP connection issues**
-- Ensure stdio transport is configured correctly
-- Check Claude Desktop MCP settings format
-- Verify server binary is in PATH
-
-### Getting Help
-- 📖 Check the [Google AI documentation](https://ai.google.dev/gemini-api/docs/image-generation)
-- 🐛 Report bugs on [GitHub Issues](https://github.com/KHAEntertainment/nano-banana-mcp/issues)
-- 💬 Join discussions in the repository
+- 📖 **[Technical Documentation](TECHNICAL.md)** - For developers and advanced users
+- 🎨 **[Sample Gallery](samples/)** - See example prompts and results
+- 🐛 **[Report Issues](https://github.com/KHAEntertainment/nano-banana-mcp/issues)** - Found a bug?
+- 💬 **[Discussions](https://github.com/KHAEntertainment/nano-banana-mcp/discussions)** - Share your creations!
 
 ## 🤝 Contributing
 
-We welcome contributions! Whether it's:
-- 🐛 Bug fixes
-- ✨ New features  
-- 📖 Documentation improvements
-- 🎨 Example images
-- 🧪 Test cases
+We'd love your help making nano-banana-mcp even better! Whether you:
+- 🎨 Share amazing images you've created
+- 🐛 Report bugs or issues
+- 💡 Suggest new features
+- 📖 Improve documentation
 
-See our contributing guidelines for more details.
-
-## 📋 Changelog
-
-### v1.0.0
-- 🎉 Initial release
-- ✅ Five core image generation tools
-- ✅ MCP protocol support
-- ✅ TypeScript implementation
-- ✅ NPX compatibility
-- ✅ Comprehensive error handling
+Every contribution matters!
 
 ## 📜 License
 
-MIT License - feel free to use in personal and commercial projects!
+MIT License - use it freely in personal and commercial projects!
 
-## 🙏 Acknowledgments
+## 🙏 Credits
 
 - **Google AI** for the incredible Gemini 2.5 Flash model
-- **Anthropic** for the Model Context Protocol
-- **The MCP Community** for building the ecosystem
+- **Anthropic** for Claude and the Model Context Protocol
+- **The community** for making AI tools more accessible
 
 ---
 
 <div align="center">
 
-**Ready to transform your creative workflow with AI?**
+**Ready to bring your imagination to life?**
 
-[Get Started](#-installation) • [View Sample Gallery](#-sample-gallery) • [Join Community](https://github.com/KHAEntertainment/nano-banana-mcp)
+[Get Started](#-quick-start) • [View Examples](samples/) • [Get Help](https://github.com/KHAEntertainment/nano-banana-mcp/discussions)
 
-*Built with ❤️ for the AI creative community*
+*Turn words into wonders with nano-banana-mcp* 🌟
 
 </div>
