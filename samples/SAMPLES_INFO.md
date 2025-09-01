@@ -11,6 +11,7 @@ This directory contains **actual images** generated using nano-banana-mcp with t
 | **landscape-sunset.png** | 1.4MB | 1024×768px | Breathtaking mountain landscape at golden hour |
 | **tech-logo.png** | 340KB | 800×400px | "NANO BANANA" tech company logo |
 | **architectural-render.png** | 1.7MB | 1200×900px | Modern glass office building visualization |
+| **terminal-banner.png** | 796KB | 1024×768px | **⭐ SPECIAL: ASCII-to-photorealistic banana transition** |
 | **test-apple.png** | 796KB | 512×512px | Simple red apple demonstration |
 
 ### 🎨 Sample Quality
@@ -20,7 +21,23 @@ All images were generated using Google Gemini 2.5 Flash ("Nano Banana") with the
 - **Photorealistic quality** for landscape and product imagery
 - **Professional text rendering** for logo design
 - **Architectural precision** for building visualizations
+- **Creative transitions** like ASCII art morphing into reality
 - **Consistent high resolution** output
+
+### ⭐ Featured Sample: Terminal Banner
+
+**terminal-banner.png** is our showcase piece demonstrating the creative potential of nano-banana-mcp:
+
+- **Concept**: A simulated terminal window displaying "NANO BANANA" in yellow text
+- **Magic**: An ASCII art banana that **gradually transforms into a photorealistic banana**
+- **Effect**: Shows digital text "coming to life" - perfect metaphor for AI image generation
+- **Dimensions**: 1024×768px (standard presentation size)
+- **Style**: Retro computing aesthetic with modern AI magic
+
+**Prompt Used**:
+```
+A terminal window interface with black background and bright yellow text that says "NANO BANANA" at the top. Below it, centered, is an ASCII art banana made of text characters. The fascinating part: halfway down the image, the ASCII banana gradually transforms and transitions into a photorealistic, actual yellow banana - as if it's coming to life and materializing from the digital text into reality. The transformation should be seamless and magical, showing the evolution from simple text art to a beautiful, real banana. Terminal-style monospace font, retro computing aesthetic, dramatic lighting on the realistic banana portion.
+```
 
 ### 📁 File Access
 
@@ -35,6 +52,11 @@ All images were generated using Google Gemini 2.5 Flash ("Nano Banana") with the
 3. **View generated images** in the `samples/` directory
 
 ### 🔍 Image Details
+
+#### ⭐ Terminal Banner (1024×768px) - **FEATURED**
+- **Concept**: ASCII art transforming into photorealistic imagery
+- **Use case**: Project banners, presentations, showcasing AI capabilities
+- **Special feature**: Demonstrates the "magic" of AI image generation
 
 #### 🌅 Landscape Sunset (1024×768px)
 - **Prompt**: "A breathtaking mountain landscape at golden hour, with misty valleys, snow-capped peaks, and dramatic clouds painted in warm orange and pink hues. Photorealistic, high detail, professional landscape photography style."
