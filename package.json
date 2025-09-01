@@ -2,7 +2,7 @@
   "name": "nanobananamcp",
   "version": "1.0.0",
   "type": "module",
-  "description": "MCP server for Google Gemini 2.5 image generation (Nano Banana)",
+  "description": "MCP server for Google Gemini 2.5 image generation (Nano Banana). Create, edit, and enhance images through natural conversation with Claude Desktop.",
   "main": "dist/index.js",
   "bin": {
     "nanobananamcp": "./dist/index.js"
@@ -14,9 +14,34 @@
     "test": "node --test",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["mcp", "gemini", "image-generation", "ai", "google"],
-  "author": "",
+  "keywords": [
+    "mcp", 
+    "model-context-protocol",
+    "gemini", 
+    "google-ai",
+    "image-generation", 
+    "ai", 
+    "claude-desktop",
+    "text-to-image",
+    "image-editing",
+    "nano-banana"
+  ],
+  "author": "KHAEntertainment",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KHAEntertainment/nano-banana-mcp.git"
+  },
+  "homepage": "https://github.com/KHAEntertainment/nano-banana-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/KHAEntertainment/nano-banana-mcp/issues"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "TECHNICAL.md",
+    "LICENSE"
+  ],
   "dependencies": {
     "@modelcontextprotocol/sdk": "^0.5.0",
     "node-fetch": "^3.3.2",
@@ -31,5 +56,11 @@
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "preferGlobal": false,
+  "os": [
+    "darwin",
+    "linux", 
+    "win32"
+  ]
 }
