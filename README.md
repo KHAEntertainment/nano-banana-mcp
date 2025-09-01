@@ -141,7 +141,8 @@ Add to your Claude Desktop MCP settings:
 {
   "mcpServers": {
     "nanobananamcp": {
-      "command": "nanobananamcp",
+      "command": "npx",
+      "args": ["nanobananamcp"],
       "env": {
         "GOOGLE_AI_API_KEY": "your-api-key-here"
       }
@@ -329,7 +330,7 @@ with a cozy, rustic aesthetic?
 ```javascript
 import { spawn } from 'child_process';
 
-const server = spawn('nanobananamcp', [], { stdio: 'pipe' });
+const server = spawn('npx', ['nanobananamcp'], { stdio: 'pipe' });
 // Send MCP protocol messages...
 ```
 
