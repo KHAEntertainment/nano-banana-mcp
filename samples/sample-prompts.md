@@ -2,6 +2,22 @@
 
 This file contains the exact prompts and parameters used to generate the sample images in this repository.
 
+## ⭐ Terminal Banner with ASCII-to-Photorealistic Transition
+
+**File:** `terminal-banner.png`  
+**Tool:** `generate_image`  
+**Prompt:**
+```
+A terminal window interface with black background and bright yellow text that says "NANO BANANA" at the top. Below it, centered, is an ASCII art banana made of text characters. The fascinating part: halfway down the image, the ASCII banana gradually transforms and transitions into a photorealistic, actual yellow banana - as if it's coming to life and materializing from the digital text into reality. The transformation should be seamless and magical, showing the evolution from simple text art to a beautiful, real banana. Terminal-style monospace font, retro computing aesthetic, dramatic lighting on the realistic banana portion.
+```
+**Parameters:**
+- Width: 1024px
+- Height: 768px
+- Style: Retro computing meets modern AI magic
+- **Special Feature**: ASCII art morphing into photorealistic imagery
+
+---
+
 ## 🌅 Landscape Generation
 
 **File:** `landscape-sunset.png`  
@@ -49,9 +65,23 @@ Modern tech company logo with sleek typography, gradient effects, and futuristic
 
 ---
 
+## 🍎 Simple Product Demo
+
+**File:** `test-apple.png`  
+**Tool:** `generate_image`
+**Prompt:**
+```
+A simple red apple on a white background, photorealistic
+```
+**Parameters:**
+- Width: 512px
+- Height: 512px
+- Style: Clean product photography
+
+---
+
 ## 🎪 Event Banner
 
-**File:** `event-banner.png`  
 **Tool:** `render_text_image`  
 **Text:** 
 ```
@@ -72,7 +102,6 @@ Professional conference banner with modern gradient background, clean typography
 
 ## 🚀 Concept Art
 
-**File:** `concept-art.png`  
 **Tool:** `generate_image`
 **Prompt:**
 ```
@@ -87,7 +116,6 @@ Futuristic cyberpunk cityscape at night with neon lights, flying cars, and tower
 
 ## 📱 Product Photography
 
-**File:** `product-mockup.png`  
 **Tool:** `generate_image`
 **Prompt:**
 ```
@@ -119,7 +147,7 @@ Clean product photography of a sleek smartphone on a white background, professio
 
 4. **Or generate individually using MCP protocol:**
    ```javascript
-   // Example for landscape generation
+   // Example for terminal banner generation
    {
      "jsonrpc": "2.0",
      "id": 1,
@@ -127,10 +155,10 @@ Clean product photography of a sleek smartphone on a white background, professio
      "params": {
        "name": "generate_image",
        "arguments": {
-         "prompt": "A breathtaking mountain landscape...",
+         "prompt": "A terminal window interface with black background...",
          "width": 1024,
          "height": 768,
-         "outputPath": "./samples/landscape-sunset.png"
+         "outputPath": "./samples/terminal-banner.png"
        }
      }
    }
@@ -143,6 +171,19 @@ Clean product photography of a sleek smartphone on a white background, professio
 - **Specify aspect ratios** - Choose dimensions that match your intended use
 - **Use style keywords** - "photorealistic", "concept art", "minimalist", etc.
 - **Include mood descriptors** - "dramatic", "serene", "vibrant", "atmospheric"
+- **Creative transitions** - Describe transformations like "ASCII art becoming photorealistic"
+
+## 🎨 Creative Inspiration
+
+The **terminal banner** sample demonstrates how you can create conceptual images that tell a story:
+- **ASCII art → Photorealistic** - Perfect metaphor for AI bringing text to life
+- **Retro meets modern** - Combines nostalgic terminal aesthetics with cutting-edge AI
+- **Gradual transformation** - Shows the "magic" of AI image generation
+
+Try similar creative concepts:
+- *"Pencil sketch gradually becoming a photograph"*
+- *"Wireframe design transforming into a real product"*
+- *"Abstract painting morphing into a realistic landscape"*
 
 ---
 
